@@ -46,7 +46,7 @@ pipeline {
                         . /etc/profile
                         mkdir -p "build_${BUILD_NUMBER}"
                         cd "build_${BUILD_NUMBER}"
-                        git clone -b dxcBranch01 " ${repo}"
+                        git clone  " ${repo}"
                     """
                 }
             }          
