@@ -7,7 +7,7 @@ def myAgent  = 'dxc'
  
 //* The app repo abd DBB args
 // def repo = 'git@github.com:nlopez1-ibm/MortgageWorkspace.git'
-def repo = 'git@github.com:gandalf68000/MortgageWorkspaceC.git'
+def repo = 'git@github.com:gandalf68000/MortgageWorkspaceD.git'
 def appworkspace = 'MortgageWorkspace'
 def appname = 'MortgageApplication'
  

@@ -10,7 +10,7 @@ profiles:
     settings:
       application: MortgageApplicationC   
       # comments from Neft on clone 
-      # https://github.com/gandalf68000/MortgageWorkspaceC.git
+      # https://github.com/gandalf68000/MortgageWorkspaceD.git
       # workspace name - needed to be created first 
       # MortgageWorkspaceC
       # debug mode 
@@ -29,7 +29,7 @@ profiles:
       buildScriptArgs:
         - "--userBuild"
         - "--workspace ${zopeneditor.userbuild.userSettings.dbbWorkspace}/${application}"
-        - "--application MortgageApplicationC"
+        - "--application MortgageApplicationD"
         - "--hlq  DBB.POC"
         - "--outDir  ${zopeneditor.userbuild.userSettings.dbbLogDir}"
       additionalDependencies:
