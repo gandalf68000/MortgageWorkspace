@@ -1,5 +1,5 @@
 name: mort-app
-description: Nelson example  
+description: Nelson example  Modified by Mark Neft
 version: 3.0.0
 author:
   name: Mark Neft
@@ -8,7 +8,11 @@ profiles:
   - name: dbb-userbuild
     type: dbb
     settings:
-      application: MortgageApplication   
+      application: MortgageApplicationC   
+      # comments from Neft on clone 
+      # https://github.com/gandalf68000/MortgageWorkspaceC.git
+      # workspace name - needed to be created first 
+      # MortgageWorkspaceC
       # debug mode 
       #command: "sh . ~/.profile;ls -lsaT $DBB_HOME/groovy/bin; groovy --version ; $DBB_HOME/bin/groovyz"
       
