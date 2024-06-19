@@ -29,7 +29,7 @@ profiles:
       buildScriptArgs:
         - "--userBuild"
         - "--workspace ${zopeneditor.userbuild.userSettings.dbbWorkspace}/${application}"
-        - "--application MortgageApplication"
+        - "--application MortgageApplicationC"
         - "--hlq  DBB.POC"
         - "--outDir  ${zopeneditor.userbuild.userSettings.dbbLogDir}"
       additionalDependencies:
